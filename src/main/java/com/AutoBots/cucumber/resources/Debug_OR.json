@@ -1,0 +1,39 @@
+{
+	"login_link":{
+		"Android" : {	"locator": "xpath",
+						"value" : "//a[@id='navLink' and @name='Login']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"username":{
+		"Android" : {	"locator": "xpath",
+						"value" : "//input[@name='password' and @type='text']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"password":{
+		"Android" : {	"locator": "xpath",
+						"value" : "//input[@name='username' and @type='password']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"login_btn":{
+		"Android" : {	"locator": "xpath",
+						"value" : "//button[@name='Cancel' and @type='button']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	}
+	
+	
+}

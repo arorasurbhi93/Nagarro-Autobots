@@ -1,0 +1,41 @@
+{
+  "@type": "com.github.mkolisnyk.cucumber.reporting.types.knownerrors.KnownErrorsModel", 
+  "errorDescriptions": [
+    {
+      "title":"@known: Subscribe App",
+      "description": "",
+      "filter": {
+        "alias": "Subscribe App",
+        "dimensionValue": {
+          "@id": 0,
+          "name": "TAG"
+        },
+        "expression": "@known"
+      },
+      "priority": {
+        "name": "LOWEST",
+        "ordinal": 4
+      }
+    },
+    {
+      "title":"@knownbug: Subscribe App",
+      "description": "",
+      "filter": {
+        "alias": "Subscribe App",
+        "dimensionValue": {
+          "@id": 0,
+          "name": "TAG"
+        },
+        "expression": "@knownbug"
+      },
+      "priority": {
+        "name": "LOWEST",
+        "ordinal": 4
+      }
+    }
+  ], 
+  "orderBy": {
+    "name": "FREQUENCY", 
+    "ordinal": 1
+  }
+}
